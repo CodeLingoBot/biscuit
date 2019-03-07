@@ -162,7 +162,7 @@ func FilenameFlag(cc *kingpin.CmdClause) *string {
 		String()
 }
 
-// AwsRegionPriority defines a flag allowing the user to specify an ordered list of
+// AwsRegionPriorityFlag: defines a flag allowing the user to specify an ordered list of
 // AWS regions to prioritize.
 func AwsRegionPriorityFlag(cc *kingpin.CmdClause) *[]string {
 	name := "aws-region-priority"
